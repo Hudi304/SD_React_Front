@@ -1,0 +1,54 @@
+.debug {
+    border: 1px solid black;
+}
+
+.register-container {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .register-card {
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 400px;
+        height: auto;
+        background-color: gray;
+        padding: 10px;
+
+        .title {
+            margin: 15px;
+            font-size: 30px;
+            color: rgb(202, 202, 202);
+        }
+
+        .register-form {
+            display: grid;
+            grid-template-rows: repeat(8 auto);
+
+            .registerFormLabel {
+                margin-top: 10px;
+                font-size: 20px;
+                color: rgb(202, 202, 202);
+            }
+
+            .registerInput {
+                font-size: 20px;
+                width: 200px;
+                height: 35px;
+                border-radius: 5px;
+            }
+
+            .register-btn-container {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                .register-btn {
+                }
+            }
+        }
+    }
+}

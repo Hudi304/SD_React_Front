@@ -1,0 +1,22 @@
+[33m50f947d[m[33m ([m[1;36mHEAD -> [m[1;32madmin[m[33m)[m HEAD@{0}: commit: add-user
+[33mc228f50[m[33m ([m[1;31morigin/admin[m[33m)[m HEAD@{1}: pull --tags origin admin: Merge made by the 'recursive' strategy.
+[33mdf519d9[m HEAD@{2}: commit: modal
+[33mb2afacc[m HEAD@{3}: commit: start-change
+[33m3623ae7[m HEAD@{4}: commit: admin
+[33m6394283[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{5}: checkout: moving from main to admin
+[33m6394283[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{6}: reset: moving to HEAD
+[33m6394283[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{7}: commit: url
+[33mc6afdd2[m HEAD@{8}: commit: eslint
+[33m9feb680[m HEAD@{9}: commit: delete packagelock
+[33m0780575[m HEAD@{10}: commit: changes
+[33m28ba73b[m HEAD@{11}: commit: url
+[33m81bb404[m HEAD@{12}: pull --tags origin main: Fast-forward
+[33m3a0fdbe[m HEAD@{13}: checkout: moving from pages to main
+[33mc476b48[m[33m ([m[1;31morigin/pages[m[33m, [m[1;32mpages[m[33m)[m HEAD@{14}: commit: homepage
+[33m684c113[m HEAD@{15}: commit: pages
+[33m3a0fdbe[m HEAD@{16}: checkout: moving from main to pages
+[33m3a0fdbe[m HEAD@{17}: commit: CI/CD
+[33m106f29e[m HEAD@{18}: commit: CI/CD
+[33m18ae828[m HEAD@{19}: pull --tags origin main: Fast-forward
+[33m1105777[m HEAD@{20}: commit: initial-commit
+[33m068b494[m HEAD@{21}: clone: from https://gitlab.com/DS2021_30645_Hudisteanu_Mihai/ds2021_30645_hudisteanu_mihai_1_frontend

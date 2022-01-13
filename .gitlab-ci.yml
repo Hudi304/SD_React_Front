@@ -1,0 +1,35 @@
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+    
+variables:
+  CI: ""
+
+build:
+  stage: build
+  image: node:14.16.0
+  script:
+    # - npm install --progress=false
+    - yarn install
+    - yarn build
+  artifacts:
+    paths:
+      - build/
+
+deploy:
+  stage: deploy
+  image: ruby:2.7
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=spring-demo-hudi-ds2021 --api-key=$HEROKU_API_KEY --skip_cleanup
+  environment:
+    name: staging
+    url: https://spring-demo-hudi-ds2021.herokuapp.com/
+  only:
+    - main

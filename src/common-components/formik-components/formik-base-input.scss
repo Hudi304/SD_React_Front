@@ -1,0 +1,13 @@
+.MuiFormControl-root {
+    .MuiFormLabel-root {
+        color: var(--main-blue-color);
+    }
+
+    .MuiOutlinedInput-root {
+        margin-bottom: 22px;
+
+        &.Mui-error {
+            margin-bottom: 0;
+        }
+    }
+}

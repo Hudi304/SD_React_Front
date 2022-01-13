@@ -1,0 +1,73 @@
+.userPageFullContainer {
+  width: 100vw;
+  height: 100vh;
+
+  .userPageCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .userGrid {
+      display: grid;
+      grid-template-columns: 30vw 70vw;
+      grid-template-rows: 100%;
+      height: 100%;
+
+      .leftColumn {
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        filter: drop-shadow(5px 5px 10px #575757);
+
+        .barChartContainer {
+        }
+        .logsTableContainer {
+        }
+      }
+
+      .chartsContainer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+
+        .lineChartCard {
+          background-color: gainsboro;
+          padding: 10px;
+
+          .lineChart1Title {
+            display: flex;
+          }
+        }
+      }
+
+      .tableCard {
+        width: 45vw;
+        height: 45vh;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.dropShadow {
+  filter: drop-shadow(5px 5px 5px #080808);
+}
+
+.userPageContainer {
+  display: block;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 800px;
+  height: 650px;
+  overflow-y: scroll;
+}

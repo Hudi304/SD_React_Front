@@ -1,0 +1,21 @@
+.MuiDialog-container {
+  .MuiDialogContent-root {
+    min-width: 500px;
+    padding: 20px;
+  }
+
+  .MuiDialogActions-root {
+    grid-column: span 2;
+    margin-top: 20px;
+    padding: 0;
+
+    .MuiButtonBase-root {
+      padding: 6px 33px;
+    }
+  }
+
+  .MuiDialogTitle-root {
+    padding: 15px 27px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+}

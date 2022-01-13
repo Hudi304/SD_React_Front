@@ -1,0 +1,12 @@
+.modelContainer {
+    display: grid;
+    width: auto;
+    height: auto;
+
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.multiSelectDevice {
+    margin-bottom: 10px;
+}

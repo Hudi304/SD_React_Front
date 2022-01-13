@@ -1,0 +1,30 @@
+.no-bullet{
+    list-style-type: none
+  }
+
+.list-item{
+    list-style-type: none;
+    background-color: #F0F2F4;
+
+}
+
+.list-button{
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    background-color: #F0F2F4;
+    width: -webkit-fill-available;
+    border: 0px;
+}
+
+.list-button:hover{
+    color: black;
+    background-color: #cccccc;
+    border: 0px;
+}
+
+.list-button{
+    color: black;
+    background-color: #F0F2F4;
+ 
+}

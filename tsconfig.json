@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "target": "es5",
+    "jsx": "react-jsx",
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "./src/**/*",
+    "./typings/**/*",
+    "./configs/environment/**/*",
+    "i18n.js"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "reportFiles": [
+      "./src/**/*"
+    ]
+  }
+}
